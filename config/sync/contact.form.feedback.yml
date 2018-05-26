@@ -1,0 +1,14 @@
+uuid: e1d343ca-6693-442e-8038-cb023ed593ed
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - panhuITM@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

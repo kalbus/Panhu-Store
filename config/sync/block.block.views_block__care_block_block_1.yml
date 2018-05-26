@@ -1,0 +1,30 @@
+uuid: c5c34c25-15b1-4142-a18c-9e8a2b4ee24e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.care_block
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__care_block_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:care_block-block_1'
+settings:
+  id: 'views_block:care_block-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/care-page\r\n/taxonomy/term/1"
+    negate: false
+    context_mapping: {  }

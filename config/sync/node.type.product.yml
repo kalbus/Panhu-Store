@@ -1,0 +1,23 @@
+uuid: 7ce24e2c-cf4d-4e7e-801d-fe313db0cb4c
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - uc_product
+  module:
+    - uc_product
+third_party_settings:
+  uc_product:
+    product: true
+    shippable: true
+    image_field: uc_product_image
+_core:
+  default_config_hash: xVXX0hxzEPtCYrHR7R0Oq4rWTRt6CNgi21u-z2e0u6w
+name: Product
+type: product
+description: 'Use <em>products</em> to represent items for sale on the website, including all the unique information that can be attributed to a specific model number.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

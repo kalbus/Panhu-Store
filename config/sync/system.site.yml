@@ -1,0 +1,14 @@
+uuid: 25422854-1844-4bd7-820f-d0f5dd8a1d53
+name: 'Panhu Store'
+mail: panhuITM@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

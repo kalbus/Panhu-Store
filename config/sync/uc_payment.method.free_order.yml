@@ -1,0 +1,12 @@
+uuid: 84a24e8d-d597-4483-9265-94bd7205c509
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: fdDIR78zHr6UXw4FnU7JCKR4sjIqA6CMYwukwT-bVdw
+id: free_order
+label: 'No payment required'
+weight: 10
+plugin: free_order
+settings: {  }
+locked: true

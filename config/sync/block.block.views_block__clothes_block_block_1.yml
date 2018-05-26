@@ -1,0 +1,30 @@
+uuid: 37fba181-6c7a-4a7c-92ea-24c57c353906
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.clothes_block
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__clothes_block_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:clothes_block-block_1'
+settings:
+  id: 'views_block:clothes_block-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/clothes-page\r\n/taxonomy/term/2"
+    negate: false
+    context_mapping: {  }

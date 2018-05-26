@@ -1,0 +1,25 @@
+uuid: c793ec67-9279-4be3-9895-ff203ca2ad80
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d929288b-f202-4551-b4bb-97fa4a16d904'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: suscribirse
+theme: bartik
+region: footer_fifth
+weight: -7
+provider: null
+plugin: 'block_content:d929288b-f202-4551-b4bb-97fa4a16d904'
+settings:
+  id: 'block_content:d929288b-f202-4551-b4bb-97fa4a16d904'
+  label: Suscribirse
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

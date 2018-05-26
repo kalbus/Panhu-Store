@@ -1,0 +1,23 @@
+sendinblue_access_key: CyI4va8sjBQMtRVW
+sendinblue_account_email: panhuITM@gmail.com
+sendinblue_account_username: 'Panhú ITM'
+sendinblue_account_data:
+  -
+    plan_type: FREE
+    credits: 300
+    credit_type: 'Send Limit'
+  -
+    plan_type: SMS
+    credits: 0
+    credit_type: 'Send Limit'
+  -
+    client_id: 2000722
+    first_name: Panhú
+    last_name: ITM
+    email: panhuITM@gmail.com
+    company: TrabajosDrupal
+    address: Punatarenas
+    city: Barranca
+    zip_code: '366'
+    country: 'Costa Rica'
+sendinblue_on: 0

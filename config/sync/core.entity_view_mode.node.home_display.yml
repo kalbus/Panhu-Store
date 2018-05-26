@@ -1,0 +1,10 @@
+uuid: 683272c2-ea50-4745-a8df-df220994bda7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.home_display
+label: 'Home Display'
+targetEntityType: node
+cache: true

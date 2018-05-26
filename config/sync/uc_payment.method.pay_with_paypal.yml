@@ -1,0 +1,19 @@
+uuid: 13615ab8-cefb-4ce9-b487-ca4c959fd08a
+langcode: en
+status: true
+dependencies: {  }
+id: pay_with_paypal
+label: 'Pay with PayPal'
+weight: 0
+plugin: paypal_wps
+settings:
+  wps_email: josbitm@gmail.com
+  wps_language: US
+  wps_server: 'https://www.sandbox.paypal.com/cgi-bin/webscr'
+  wps_payment_action: Sale
+  wps_submit_method: single
+  wps_no_shipping: '1'
+  wps_address_override: true
+  wps_address_selection: billing
+  wps_debug_ipn: false
+locked: false

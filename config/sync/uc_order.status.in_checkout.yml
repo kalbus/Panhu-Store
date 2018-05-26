@@ -1,0 +1,11 @@
+uuid: 04a8ec6d-e94e-4629-b857-1b32abcf04ad
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pt55hIW6gJsxThuHKnl_TPGY4UfBCE366el6gcXdykE
+id: in_checkout
+name: 'In checkout'
+state: in_checkout
+weight: -10
+locked: true

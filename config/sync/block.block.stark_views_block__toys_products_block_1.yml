@@ -1,0 +1,30 @@
+uuid: 32cd677d-20bc-4005-88ea-e2797ea7fa0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.toys_products
+  module:
+    - system
+    - views
+  theme:
+    - stark
+id: stark_views_block__toys_products_block_1
+theme: stark
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'views_block:toys_products-block_1'
+settings:
+  id: 'views_block:toys_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: 8f34880d-e4dc-440d-b53b-2ee250366492
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.accessories_products
+  module:
+    - system
+    - views
+  theme:
+    - stark
+id: stark_views_block__accessories_products_block_1
+theme: stark
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:accessories_products-block_1'
+settings:
+  id: 'views_block:accessories_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

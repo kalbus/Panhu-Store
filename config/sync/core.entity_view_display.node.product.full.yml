@@ -1,0 +1,99 @@
+uuid: 423a165e-bf17-447e-b4d0-239767152c28
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.product.body
+    - field.field.node.product.field_featured
+    - field.field.node.product.taxonomy_catalog
+    - field.field.node.product.uc_product_image
+    - image.style.uc_product_list
+    - node.type.product
+  module:
+    - image
+    - text
+    - uc_product
+    - user
+_core:
+  default_config_hash: TP6Uzw7oLDiIiWQxnnPOmm7z2WPeiAD0Xfb2ktjF22E
+id: node.product.full
+targetEntityType: node
+bundle: product
+mode: full
+content:
+  add_to_cart:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    label: hidden
+    region: content
+  dimensions:
+    type: uc_dimensions
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    label: inline
+    region: content
+  display_price:
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_featured:
+    weight: 6
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  links:
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  model:
+    type: string
+    weight: 1
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: inline
+    region: content
+  taxonomy_catalog:
+    type: entity_reference_label
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  uc_product_image:
+    type: image
+    weight: 0
+    settings:
+      image_style: uc_product_list
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
+    region: content
+  weight:
+    type: uc_weight
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    label: inline
+    region: content
+hidden:
+  cost: true
+  price: true

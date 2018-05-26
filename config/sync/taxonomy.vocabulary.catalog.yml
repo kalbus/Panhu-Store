@@ -1,0 +1,11 @@
+uuid: 87347aca-0dac-4289-b68e-e7d7bf15d26f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Pc-UXGGKN04Cl6heDpTOESXt1tAgEkeGzS4dIncsoOI
+name: Catalog
+vid: catalog
+description: 'Product catalog'
+hierarchy: 0
+weight: -10

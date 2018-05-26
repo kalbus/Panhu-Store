@@ -1,0 +1,33 @@
+uuid: bbdf2605-bfdc-40bd-9858-85f19c3a994b
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: DWA5f5mGEBWaWR9BUf9F9d6ND8oSpJ_ucldprmylFjI
+name: Cuba
+alpha_2: CU
+alpha_3: CUB
+numeric: 192
+zones:
+  '01': 'Pinar del Rio'
+  '02': 'La Habana'
+  '03': 'Ciudad de la Habana'
+  '04': Matanzas
+  '05': 'Villa Clara'
+  '06': Cienfuegos
+  '07': 'Sancti Spiritus'
+  '08': 'Ciego de Avila'
+  '09': Camaguey
+  10: 'Las Tunas'
+  11: Holguin
+  12: Granma
+  13: 'Santiago de Cuba'
+  14: 'Sancti Spiritus'
+  99: 'Isla de la Juventud'
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city, !zone_name  !postal_code'
+  - '!country_name_if'

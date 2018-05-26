@@ -1,0 +1,12 @@
+uuid: a0af05df-e0ad-4afb-a89f-bc09a15b5c32
+langcode: en
+status: false
+dependencies:
+  module:
+    - uc_order
+_core:
+  default_config_hash: eWdOayWZAquuI84NABggYvUP6hdGd3rp-dqhExlF7kg
+id: uc_order_product.full
+label: 'Cart view'
+targetEntityType: uc_order_product
+cache: true

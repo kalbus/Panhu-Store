@@ -1,0 +1,33 @@
+uuid: 358aa761-2717-4940-b828-dbf45d3fa770
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.similar_products
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__similar_products_block_1
+theme: bartik
+region: sidebar_first
+weight: -3
+provider: null
+plugin: 'views_block:similar_products-block_1'
+settings:
+  id: 'views_block:similar_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

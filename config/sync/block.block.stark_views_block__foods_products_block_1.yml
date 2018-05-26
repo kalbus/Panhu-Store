@@ -1,0 +1,30 @@
+uuid: 08ead8b6-c897-4a5c-997d-14ae82e78d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.foods_products
+  module:
+    - system
+    - views
+  theme:
+    - stark
+id: stark_views_block__foods_products_block_1
+theme: stark
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:foods_products-block_1'
+settings:
+  id: 'views_block:foods_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,32 @@
+uuid: c71edd6a-8656-47ac-a540-86d374981953
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: rz6Y6BG0kXsu_zplqEyqkRJs-BmELtdiu0FJFIQ1rpU
+name: Myanmar
+alpha_2: MM
+alpha_3: MMR
+numeric: 104
+zones:
+  '07': Ayeyarwady
+  '02': Bago
+  14: Chin
+  11: Kachin
+  12: Kayah
+  13: Kayin
+  '03': Magway
+  '04': Mandalay
+  15: Mon
+  16: Rakhine
+  '01': Sagaing
+  17: Shan
+  '05': Tanintharyi
+  '06': Yangon
+address_format:
+  - '!company'
+  - '!first_name !last_name'
+  - '!street1'
+  - '!street2'
+  - '!city !zone_code !postal_code'
+  - '!country_name_if'

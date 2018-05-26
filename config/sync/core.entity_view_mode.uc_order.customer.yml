@@ -1,0 +1,12 @@
+uuid: 4dbd35e9-fcdc-43a7-957a-9da9f38a4b7f
+langcode: en
+status: false
+dependencies:
+  module:
+    - uc_order
+_core:
+  default_config_hash: H8kIY04wsQkbAG2XgV7aJ5mJzJWqU6zAXV2r1k_uGPE
+id: uc_order.customer
+label: 'Customer view'
+targetEntityType: uc_order
+cache: false

@@ -1,0 +1,3 @@
+sendinblue_on: 0
+sendinblue_smtp_details:
+  relay: false

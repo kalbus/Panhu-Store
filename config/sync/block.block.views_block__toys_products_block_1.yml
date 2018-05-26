@@ -1,0 +1,30 @@
+uuid: 09455a59-931d-42ef-ace4-70431b33913f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.toys_products
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__toys_products_block_1
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:toys_products-block_1'
+settings:
+  id: 'views_block:toys_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

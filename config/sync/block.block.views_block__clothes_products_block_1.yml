@@ -1,0 +1,30 @@
+uuid: 26a045ae-02a1-4c0c-b78e-5ec6a01112c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.clothes_products
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__clothes_products_block_1
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:clothes_products-block_1'
+settings:
+  id: 'views_block:clothes_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

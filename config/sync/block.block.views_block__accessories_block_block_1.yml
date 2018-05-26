@@ -1,0 +1,30 @@
+uuid: b3063a08-6880-4511-9145-7c50c7fc78b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.accessories_block
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__accessories_block_block_1
+theme: bartik
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_block:accessories_block-block_1'
+settings:
+  id: 'views_block:accessories_block-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/accessories-page\r\n/taxonomy/term/5"
+    negate: false
+    context_mapping: {  }

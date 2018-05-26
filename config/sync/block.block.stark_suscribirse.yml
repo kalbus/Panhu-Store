@@ -1,0 +1,25 @@
+uuid: 00be16f4-43c1-4742-9b93-f512c21b5fc7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d929288b-f202-4551-b4bb-97fa4a16d904'
+  module:
+    - block_content
+  theme:
+    - stark
+id: stark_suscribirse
+theme: stark
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:d929288b-f202-4551-b4bb-97fa4a16d904'
+settings:
+  id: 'block_content:d929288b-f202-4551-b4bb-97fa4a16d904'
+  label: Suscribirse
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

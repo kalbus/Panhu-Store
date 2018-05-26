@@ -1,0 +1,30 @@
+uuid: 30f86a79-bf41-4cb6-b466-33baa0edaf74
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.accessories_products
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__accessories_products_block_1
+theme: bartik
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'views_block:accessories_products-block_1'
+settings:
+  id: 'views_block:accessories_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

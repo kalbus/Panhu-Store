@@ -1,0 +1,11 @@
+uuid: 986d8dee-7e5f-4afc-a59e-a939f836e37a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IygPSKjBfg1oOmV1_aU1jDC7UWd-qTSWf6xGgGriloM
+id: completed
+name: Completed
+state: completed
+weight: 20
+locked: true

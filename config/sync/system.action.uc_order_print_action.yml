@@ -1,0 +1,13 @@
+uuid: cda11dc1-b922-4f1a-88c6-84878db8a18f
+langcode: en
+status: true
+dependencies:
+  module:
+    - uc_order
+_core:
+  default_config_hash: ufLI8AZNMPuhNRKZE15FuELauh-RnHynoTWS2aXXre4
+id: uc_order_print_action
+label: 'Print order'
+type: uc_order
+plugin: uc_order_print_action
+configuration: {  }

@@ -1,0 +1,41 @@
+uuid: 3da64fe9-69e8-413b-b495-b2177bb23e04
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.home_display
+    - field.field.node.product.body
+    - field.field.node.product.taxonomy_catalog
+    - field.field.node.product.uc_product_image
+    - image.style.home_image
+    - node.type.product
+  module:
+    - image_first_formatter
+    - user
+_core:
+  default_config_hash: TP6Uzw7oLDiIiWQxnnPOmm7z2WPeiAD0Xfb2ktjF22E
+id: node.product.home_display
+targetEntityType: node
+bundle: product
+mode: home_display
+content:
+  uc_product_image:
+    type: image_first
+    weight: 0
+    settings:
+      image_style: home_image
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+    region: content
+hidden:
+  add_to_cart: true
+  body: true
+  cost: true
+  dimensions: true
+  display_price: true
+  links: true
+  model: true
+  price: true
+  taxonomy_catalog: true
+  weight: true
